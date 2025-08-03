@@ -1,0 +1,7 @@
+__pycache__/
+backend/intvenv/
+intvenv/
+.env
+frontend/node_modules/
+node_modules/
+npm-debug.log*
