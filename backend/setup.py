@@ -1,9 +1,3 @@
-#!/usr/bin/env python3
-"""
-Ollama Health Check and Setup Script
-Run this to verify Ollama is working correctly
-"""
-
 import requests
 import json
 import subprocess
@@ -111,7 +105,6 @@ def install_recommended_models():
 def main():
     print("🔍 Ollama Health Check\n" + "="*30)
     
-    # Check if Ollama service is running
     if not check_ollama_service():
         print("\n💡 To start Ollama:")
         print("   1. Open a terminal and run: ollama serve")
