@@ -1,5 +1,4 @@
 __pycache__/
-backend/intvenv/
 intvenv/
 .env
 frontend/node_modules/
